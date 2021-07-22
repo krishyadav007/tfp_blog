@@ -28,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-SITE_ID = 1
+SITE = Site.objects.get(pk=1)
 
 # Application definition
 
